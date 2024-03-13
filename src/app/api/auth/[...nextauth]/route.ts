@@ -7,10 +7,11 @@ import CredentialsProvider  from 'next-auth/providers/credentials'
 import connectDb from '@/utils/connectDb'
 import User from '@/models/user'
 import { MongoDBAdapter } from "@auth/mongodb-adapter"
-import clientPromise from '@/lib/mongodb'
+import clientPromise from "../../../../lib/mongodb"
 
 
 const handler = NextAuth({
+  //debug: process.env.NODE_ENV === "development",
   adapter: MongoDBAdapter(clientPromise),
   providers: [
     // OAuth authentication providers...
