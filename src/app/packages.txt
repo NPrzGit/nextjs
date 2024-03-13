@@ -1,0 +1,12 @@
+npm install -D tailwindcss postcss autoprefixer
+npx tailwindscss init -p
+
+
+setup mongoDB
+npm install mongoose
+
+nextAuth
+link sobre como implementarlo https://medium.com/@rishipardeshi/authentication-with-nextjs-14-and-next-auth-b10fe7eb6407
+npm install next-auth
+https://authjs.dev/reference/adapter/mongodb?_gl=1*sjz7r4*_gcl_au*NDI4OTAxNTMyLjE3MTAwMDgxNDEuMjAwNDI2OTcwMy4xNzEwMDE0NDg5LjE3MTAwMTQ0ODk.
+npm install @next-auth/mongodb-adapter mongodb
